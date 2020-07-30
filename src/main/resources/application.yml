@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: es-application
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      client:
+        reactive:
+          endpoints: localhost:9003
